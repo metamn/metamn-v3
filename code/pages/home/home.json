@@ -30,5 +30,16 @@
       "Use edge technology",
       "Deliver your message"
     ]
+  },
+  "work": {
+    "title": "Featured work",
+    "smuff": {
+      "title": "Smuff",
+      "type": "E-commerce",
+      "year": "2012",
+      "images": [
+        "smuff-1.png"
+      ]
+    }
   }
 }

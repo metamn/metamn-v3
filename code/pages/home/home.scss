@@ -25,6 +25,10 @@ html {
       .does {
         @include does;
       }
+
+      .work {
+        @include work;
+      }
     }
   }
 }

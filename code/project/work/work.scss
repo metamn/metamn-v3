@@ -1,0 +1,9 @@
+@mixin work {
+  &__title {
+    display: flex;
+  }
+
+  .smuff {
+    @include smuff;
+  }
+}
