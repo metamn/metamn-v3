@@ -1,0 +1,6 @@
+@mixin meta {
+  .slider {
+    @include slider;
+    height: 10em;
+  }
+}

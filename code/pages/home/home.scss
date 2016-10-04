@@ -9,6 +9,10 @@ html {
       .header {
         @include header;
       }
+
+      .meta {
+        @include meta;
+      }
     }
   }
 }
