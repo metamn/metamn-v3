@@ -5,8 +5,7 @@
 
 /* THANKS */
 
-	Icon: Cursor by romzicon from the Noun Project
-  Icon: Arrow Right by Rockicon from the Noun Project
+	Icon: Arrow by olcay kurtulus from the Noun Project
 
 
 /* SITE */

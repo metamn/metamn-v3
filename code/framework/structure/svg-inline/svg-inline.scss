@@ -5,6 +5,9 @@
 //
 // $styleable- To accept restyling with CSS or not
 //
+// Notes:
+// - the .svg file will be embedded into HTML so it must not be copied to the production / destination folder
+//
 // Styleguide inline-svg
 @mixin svg-inline($styleable: false) {
   @if ($styleable == true) {
