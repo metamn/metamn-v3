@@ -13,6 +13,18 @@ html {
       .meta {
         @include meta;
       }
+
+      .freelancers {
+        @include freelancers;
+      }
+
+      .doesnot {
+        @include doesnot;
+      }
+
+      .does {
+        @include does;
+      }
     }
   }
 }

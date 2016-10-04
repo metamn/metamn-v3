@@ -1,0 +1,11 @@
+@mixin doesnot-template {
+  .li {
+    display: flex;
+    align-items: center;
+
+    .svg-inline {
+      @include svg-inline;
+      width: $lem * 2;
+    }
+  }
+}

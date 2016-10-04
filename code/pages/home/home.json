@@ -4,5 +4,31 @@
     "denoting something of a higher or second-order kind.",
     "a concept which is an abstraction from another concept, used to complete or add to the latter.",
     "an acronym, most commonly used in the gaming world, for Most Effective Tactic Available. "
-  ]
+  ],
+  "freelancers": {
+    "query": "freelance web designers and developers",
+    "count": "1,040,000"
+  },
+  "doesnot": {
+    "text1": "Who",
+    "text2": "Does not",
+    "klass": "doesnot",
+    "svg": "minus",
+    "list": [
+      "Slice Photoshop",
+      "Use Bootstrap",
+      "Knows what Hero means"
+    ]
+  },
+  "does": {
+    "text1": "But",
+    "text2": "I do",
+    "klass": "does",
+    "svg": "plus",
+    "list": [
+      "Design in the browser",
+      "Use edge technology",
+      "Deliver your message"
+    ]
+  }
 }
