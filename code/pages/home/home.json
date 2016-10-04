@@ -38,7 +38,12 @@
       "type": "E-commerce",
       "year": "2012",
       "images": [
-        "smuff-1.png"
+        "smuff-1.png",
+        "smuff-2.png",
+        "smuff-3.png",
+        "smuff-intro-1.png",
+        "smuff-intro-2.png",
+        "smuff-intro-3.png"
       ]
     }
   }
