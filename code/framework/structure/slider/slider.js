@@ -31,15 +31,15 @@ function Slider(sliderID, bulletsID, autoScroll) {
 
 // The main function
 var slider = function(sliderID, bulletsID, autoScroll) {
-  if (typeof(autoScroll)==='undefined') autoScroll = -1;
+  if (typeof(autoScroll) === 'undefined') autoScroll = -1;
   s = new Slider(sliderID, bulletsID, autoScroll);
 
   // Make responsive
   s.setTransform();
   window.addEventListener('resize', s.setTransform.bind(s)); // without `bind(s)` the object is lost in `addEventListener`
 
-  // Click on slide image
-  click(s.images, s.clickSlide.bind(s));
+  // Click on slides
+  click(s.slides, s.clickSlide.bind(s));
 
   // Swipe on slide
   s.swipe();
@@ -94,25 +94,23 @@ Slider.prototype.clickBullet = function(event) {
 Slider.prototype.swipe = function() {
   _this = this;
 
-  _this.slides.loop(function(slide) {
-    var hammer = new Hammer(slide);
-    hammer.get('swipe').set({
-      direction: Hammer.DIRECTION_HORIZONTAL,
-      threshold: 1,
-      velocity: 0.1
-    });
+  var hammer = new Hammer(_this.slider[0]);
 
-    hammer.on("swipeleft", function() {
-      _this.previousSlide(1);
-      setActiveBulletClass(_this.bullets, _this.slides);
-    });
-
-    hammer.on("swiperight", function() {
-      _this.nextSlide(1);
-      setActiveBulletClass(_this.bullets, _this.slides);
-    });
+  hammer.get('swipe').set({
+   direction: Hammer.DIRECTION_HORIZONTAL,
+   threshold: 1,
+   velocity: 0.1
   });
 
+  hammer.on("swipeleft", function() {
+    _this.previousSlide(1);
+    setActiveBulletClass(_this.bullets, _this.slides);
+  });
+
+  hammer.on("swiperight", function() {
+    _this.nextSlide(1);
+    setActiveBulletClass(_this.bullets, _this.slides);
+  });
 }
 
 
