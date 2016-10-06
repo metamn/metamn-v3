@@ -1,0 +1,20 @@
+@mixin menu {
+  display: flex;
+  justify-content: space-between;
+
+  .arrow-with-saquo {
+    @include arrow-with-saquo;
+    display: none;
+  }
+
+  padding: $lem;
+  .ul {
+    padding: $lem * 2;
+  }
+
+  .title {
+    display: none;
+  }
+
+  margin-bottom: calc(50vh - #{$lem * 2});
+}
