@@ -1,20 +1,20 @@
 @mixin menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
-  .arrow-with-saquo {
-    @include arrow-with-saquo;
-    display: none;
-  }
+  padding: $lem * 2 $lem * 3;
+  position: fixed;
+  width: calc(100% - #{$lem * 3 * 2});
 
-  padding: $lem;
-  .ul {
+
+  &__item {
     padding: $lem * 2;
-  }
+    @include colors(black-on-white);
 
-  .title {
-    display: none;
+    &--active,
+    &:hover {
+      @include colors(white-on-black);
+    }
   }
-
-  //margin-bottom: calc(50vh - #{$lem * 2});
 }

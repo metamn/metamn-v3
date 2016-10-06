@@ -6,6 +6,8 @@
 html {
   &.home {
     body {
+      @include background-image-lined;
+      
       .work {
         @include work;
       }
