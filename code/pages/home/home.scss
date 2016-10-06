@@ -6,28 +6,12 @@
 html {
   &.home {
     body {
-      .header {
-        @include header;
-      }
-
-      .meta {
-        @include meta;
-      }
-
-      .freelancers {
-        @include freelancers;
-      }
-
-      .doesnot {
-        @include doesnot;
-      }
-
-      .does {
-        @include does;
-      }
-
       .work {
         @include work;
+      }
+
+      .info {
+        @include info;
       }
     }
   }

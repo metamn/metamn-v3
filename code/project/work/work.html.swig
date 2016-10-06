@@ -1,6 +1,10 @@
 <section class="work">
-  <h3 class="work__title">{{ work.title }}</h3>
+  <h3>Work</h3>
 
-  {% set smuff = work.smuff %}
-  {% include "../smuff/smuff.html.swig" %}
+  {% for w in work %}
+    {% set klass = w.klass %}
+    {% set images = w.images %}
+    {% set title = w.title %}
+    {% include "__images/work__images.html.swig" %}
+  {% endfor %}
 </section>

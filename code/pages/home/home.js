@@ -1,1 +1,1 @@
-require('./../../project/meta/meta.js');
+require('./../../project/work/work.js');
