@@ -60,6 +60,20 @@
         "themes-21.png",
         "themes-22.png"
       ]
+    },
+    "beat": {
+      "title": "Beat",
+      "klass": "beat",
+      "type": "Blog",
+      "year": "2016",
+      "images": [
+        "beat-1.png",
+        "beat-2.png",
+        "beat-3.png",
+        "beat-4.png",
+        "beat-5.png",
+        "beat-6.png"
+      ]
     }
   }
 }
