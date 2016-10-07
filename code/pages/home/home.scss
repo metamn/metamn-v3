@@ -7,17 +7,21 @@ html {
   &.home {
     body {
       @include background-image-lined;
-      
+
+      .logo {
+        @include logo;
+      }
+
+      .menu {
+        @include menu;
+      }
+
       .work {
         @include work;
       }
 
       .info {
         @include info;
-      }
-
-      .menu {
-        @include menu;
       }
     }
   }

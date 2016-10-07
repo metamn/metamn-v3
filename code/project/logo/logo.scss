@@ -1,0 +1,19 @@
+@mixin logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: $lem * 10;
+  height: $lem * 10;
+
+  position: fixed;
+  left: calc(50vw - #{$lem * 5});
+  top: calc(50vh - #{$lem * 5});
+
+  .row {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

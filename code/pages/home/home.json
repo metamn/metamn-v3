@@ -30,6 +30,36 @@
         "inu-4-white.png",
         "inu-4-black.png"
       ]
+    },
+    "themes": {
+      "title": "Themes",
+      "klass": "themes",
+      "type": "Experiment",
+      "year": "2015",
+      "images": [
+        "themes-1.png",
+        "themes-2.png",
+        "themes-3.png",
+        "themes-4.png",
+        "themes-5.png",
+        "themes-6.png",
+        "themes-7.png",
+        "themes-8.png",
+        "themes-9.png",
+        "themes-10.png",
+        "themes-11.png",
+        "themes-12.png",
+        "themes-13.png",
+        "themes-14.png",
+        "themes-15.png",
+        "themes-16.png",
+        "themes-17.png",
+        "themes-18.png",
+        "themes-19.png",
+        "themes-20.png",
+        "themes-21.png",
+        "themes-22.png"
+      ]
     }
   }
 }
