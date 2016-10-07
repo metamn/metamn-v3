@@ -5,5 +5,6 @@
   {% include "../../project/menu/menu.html.swig" %}
   {% include "../../project/work/work.html.swig" %}
   {% include "../../project/info/info.html.swig" %}
+  {% include "../../project/footer/footer.html.swig" %}
 
 {% endblock %}

@@ -1,0 +1,13 @@
+@mixin footer {
+  margin-top: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white);
+    @include text-style(title);
+
+    width: $lem * 10;
+  }
+}
