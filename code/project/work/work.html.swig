@@ -5,4 +5,4 @@
   <h3>{{ work.title }}</h3>
 
   {% include "__images/work__images.html.swig" %}
-</section>
+</article>
