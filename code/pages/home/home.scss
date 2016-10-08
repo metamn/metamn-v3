@@ -12,14 +12,6 @@ html {
         @include logo;
       }
 
-      .menu {
-        @include menu;
-      }
-
-      .contact {
-        @include contact;
-      }
-
       .works {
         @include works;
       }
