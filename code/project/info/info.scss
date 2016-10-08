@@ -1,1 +1,12 @@
-@mixin info {}
+@mixin info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__bio {
+    @include text-style(body-text);
+    @include scale(large-6);
+
+    padding: $lem;
+  }
+}
