@@ -8,5 +8,22 @@
     @include scale(large-6);
 
     padding: $lem;
+
+    .avantgarde {
+      text-decoration: line-through;
+    }
+  }
+
+  &__contact {
+    @include colors(white-on-black);
+
+    padding: $lem;
+    margin: $lem;
+
+    .link {
+      @include text-style(title);
+      @include link(white-on-black, white-on-black, white-on-black);
+      text-decoration: none;
+    }
   }
 }
