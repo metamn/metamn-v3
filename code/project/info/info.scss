@@ -9,8 +9,9 @@
 
     padding: $lem;
 
-    .avantgarde {
-      text-decoration: line-through;
+    .link {
+      @include link(white-on-black, white-on-black, white-on-black);
+      text-decoration: none;
     }
   }
 
