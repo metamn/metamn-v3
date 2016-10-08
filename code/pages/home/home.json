@@ -1,34 +1,18 @@
 {
   "title": "Home",
   "work": {
-    "smuff": {
-      "title": "Smuff",
-      "klass": "smuff",
-      "type": "E-commerce",
-      "year": "2012",
+    "beat": {
+      "title": "Beat",
+      "klass": "beat",
+      "type": "Blog",
+      "year": "2016",
       "images": [
-        "smuff-1.png",
-        "smuff-2.png",
-        "smuff-3.png",
-        "smuff-intro-1.png",
-        "smuff-intro-2.png",
-        "smuff-intro-3.png"
-      ]
-    },
-    "inu": {
-      "title": "Inu Chivu",
-      "klass": "inu",
-      "type": "Portfolio",
-      "year": "2013",
-      "images": [
-        "inu-1-white.png",
-        "inu-1-black.png",
-        "inu-2-white.png",
-        "inu-2-black.png",
-        "inu-3-white.png",
-        "inu-3-black.png",
-        "inu-4-white.png",
-        "inu-4-black.png"
+        "beat-1.png",
+        "beat-2.png",
+        "beat-3.png",
+        "beat-4.png",
+        "beat-5.png",
+        "beat-6.png"
       ]
     },
     "themes": {
@@ -61,18 +45,34 @@
         "themes-22.png"
       ]
     },
-    "beat": {
-      "title": "Beat",
-      "klass": "beat",
-      "type": "Blog",
-      "year": "2016",
+    "inu": {
+      "title": "Inu Chivu",
+      "klass": "inu",
+      "type": "Portfolio",
+      "year": "2013",
       "images": [
-        "beat-1.png",
-        "beat-2.png",
-        "beat-3.png",
-        "beat-4.png",
-        "beat-5.png",
-        "beat-6.png"
+        "inu-1-white.png",
+        "inu-1-black.png",
+        "inu-2-white.png",
+        "inu-2-black.png",
+        "inu-3-white.png",
+        "inu-3-black.png",
+        "inu-4-white.png",
+        "inu-4-black.png"
+      ]
+    },
+    "smuff": {
+      "title": "Smuff",
+      "klass": "smuff",
+      "type": "E-commerce",
+      "year": "2012",
+      "images": [
+        "smuff-1.png",
+        "smuff-2.png",
+        "smuff-3.png",
+        "smuff-intro-1.png",
+        "smuff-intro-2.png",
+        "smuff-intro-3.png"
       ]
     }
   }
