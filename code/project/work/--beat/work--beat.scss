@@ -3,11 +3,11 @@
     justify-content: center;
 
     .img {
-      max-width: calc(50% - #{$lem * 2});
-      margin: $lem;
+      max-width: calc(40% - #{$lem * 4});
+      margin: $lem * 2;
 
-      transform: perspective(600px) skew(10deg);
-      box-shadow: $lem $lem $black;
+      //transform: perspective( $lem * 10) rotateY(15deg) rotateZ(-5deg);
+      //box-shadow: $lem $lem $black;
     }
   }
 }
