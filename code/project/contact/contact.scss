@@ -6,6 +6,8 @@
   position: fixed;
   bottom: $lem;
 
+  display: none;
+
   .link {
     @include link(black-on-white, black-on-white, black-on-white);
     @include text-style(title);

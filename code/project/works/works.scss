@@ -4,5 +4,9 @@
 
   .work {
     @include work;
+
+    + .work {
+      margin-top: $lem;
+    }
   }
 }

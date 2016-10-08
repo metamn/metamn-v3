@@ -1,5 +1,13 @@
 @mixin work--beat {
-  .img {
-    margin-bottom: $lem;
+  .work__images {
+    justify-content: center;
+
+    .img {
+      max-width: calc(50% - #{$lem * 2});
+      margin: $lem;
+
+      transform: perspective(600px) skew(10deg);
+      box-shadow: $lem $lem $black;
+    }
   }
 }
