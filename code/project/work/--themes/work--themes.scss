@@ -1,0 +1,22 @@
+@mixin work--themes {
+  .img {
+    max-width: 20%;
+    padding: $lem;
+    margin: $lem;
+
+    box-shadow: $lem $lem $black;
+    transform: rotateX(5deg) rotateZ(-5deg);
+    transform-style: preserve-3d;
+
+    &--1,
+    &--2,
+    &--3,
+    &--4 {
+      margin-top: 80vh;
+    }
+
+    &--15 {
+      display: none;
+    }
+  }
+}

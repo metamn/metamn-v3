@@ -1,10 +1,8 @@
-<section class="work">
-  <h3>Work</h3>
+{% import "../../framework/helpers/classname/classname.swig" as c  %}
+{% set classname = c.classname(work.title) %}
 
-  {% for w in work %}
-    {% set klass = w.klass %}
-    {% set images = w.images %}
-    {% set title = w.title %}
-    {% include "__images/work__images.html.swig" %}
-  {% endfor %}
+<article class="work work--{{ classname }}">
+  <h3>{{ work.title }}</h3>
+
+  {% include "__images/work__images.html.swig" %}
 </section>

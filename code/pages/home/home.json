@@ -1,9 +1,8 @@
 {
   "title": "Home",
-  "work": {
-    "beat": {
+  "works": [
+    {
       "title": "Beat",
-      "klass": "beat",
       "type": "Blog",
       "year": "2016",
       "images": [
@@ -15,9 +14,8 @@
         "beat-6.png"
       ]
     },
-    "themes": {
+    {
       "title": "Themes",
-      "klass": "themes",
       "type": "Experiment",
       "year": "2015",
       "images": [
@@ -45,7 +43,7 @@
         "themes-22.png"
       ]
     },
-    "inu": {
+    {
       "title": "Inu Chivu",
       "klass": "inu",
       "type": "Portfolio",
@@ -61,9 +59,8 @@
         "inu-4-black.png"
       ]
     },
-    "smuff": {
+    {
       "title": "Smuff",
-      "klass": "smuff",
       "type": "E-commerce",
       "year": "2012",
       "images": [
@@ -75,5 +72,5 @@
         "smuff-intro-3.png"
       ]
     }
-  }
+  ]
 }

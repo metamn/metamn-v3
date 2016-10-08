@@ -1,0 +1,21 @@
+@mixin work--beat {
+  .img {
+    margin: $lem * 2;
+    transform: perspective($lem * 20) rotateY(5deg) rotateZ(-5deg);
+
+    border: $lem / 4 solid;
+
+    &--1 {
+      margin-top: 62vh;
+    }
+
+    &--2 {
+      margin-top: 100vh;
+    }
+
+    &--4,
+    &--6 {
+      margin-top: 25vh;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@mixin works {
+  display: flex;
+  flex-direction: column;
+
+  .work {
+    @include work;
+  }
+}
