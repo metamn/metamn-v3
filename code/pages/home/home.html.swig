@@ -3,8 +3,8 @@
 
   {% include "../../project/logo/logo.html.swig" %}
   {% include "../../project/menu/menu.html.swig" %}
+  {% include "../../project/contact/contact.html.swig" %}
   {% include "../../project/works/works.html.swig" %}
   {% include "../../project/info/info.html.swig" %}
-  {% include "../../project/footer/footer.html.swig" %}
 
 {% endblock %}

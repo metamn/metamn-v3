@@ -16,16 +16,16 @@ html {
         @include menu;
       }
 
+      .contact {
+        @include contact;
+      }
+
       .works {
         @include works;
       }
 
       .info {
         @include info;
-      }
-
-      .footer {
-        @include footer;
       }
     }
   }
