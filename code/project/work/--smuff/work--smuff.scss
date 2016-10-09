@@ -1,20 +1,21 @@
 @mixin work--smuff {
   .work__images {
-    justify-content: flex-end;
+    justify-content: center;
 
     .img {
       mix-blend-mode: difference;
 
       margin: $lem * 2;
-      transform: perspective( $lem * 10) rotateY(15deg) rotateZ(-5deg);
+      transform: perspective( $lem * 15) rotateY(15deg) rotateZ(-5deg);
+
       &--5 {
         position: relative;
-        top:-40em;
+        margin-top:-40em;
       }
 
       &--6 {
         position: relative;
-        top:-80em;
+        margin-top:-80em;
       }
     }
   }

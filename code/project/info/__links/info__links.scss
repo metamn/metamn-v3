@@ -1,5 +1,6 @@
 @mixin info__links {
   display: flex;
+  margin-bottom: $lem;
 
   .info-link {
     @include info-link;
