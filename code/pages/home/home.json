@@ -72,5 +72,25 @@
         "smuff-intro-3.png"
       ]
     }
+  ],
+  "links": [
+    {
+      "title": "Beat",
+      "url": "http://metamn.io/beat",
+      "type": "external",
+      "klass": "flip beat"
+    },
+    {
+      "title": "Pulse",
+      "url": "http://metamn.io/pulse",
+      "type": "external",
+      "klass": "flip pulse"
+    },
+    {
+      "title": "Gust",
+      "url": "http://metamn.io/gust",
+      "type": "external",
+      "klass": "flip gust"
+    }
   ]
 }

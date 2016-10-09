@@ -1,0 +1,13 @@
+@mixin info__bio {
+  @include text-style(body-text);
+  @include scale(large-8);
+  
+  max-width: 10em;
+  color: $white;
+  font-weight: 900;
+
+  .link {
+    @include link(white-on-black, white-on-black, white-on-black);
+    text-decoration: none;
+  }
+}

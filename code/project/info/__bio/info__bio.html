@@ -1,7 +1,4 @@
-<section class="info">
-  <h3>Info</h3>
-
-  <aside class="info__bio">
+<aside class="info__bio">
   <h3>Bio</h3>
   
   <p>
@@ -16,11 +13,3 @@
     Looking <a class="link" href="mailto:bartus.csongor@gmail.com" title="bartus.csongor@gmail.com">bartus.csongor@gmail.com</a> to play together and deliver a message.
   </p>
 </aside>
-
-  <aside class="info__links">
-  <h3>Links</h3>
-
-  
-</aside>
-
-</section>

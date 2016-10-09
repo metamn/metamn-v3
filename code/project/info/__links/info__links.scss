@@ -1,0 +1,7 @@
+@mixin info__links {
+  display: flex;
+
+  .info-link {
+    @include info-link;
+  }
+}

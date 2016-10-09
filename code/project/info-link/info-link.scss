@@ -1,0 +1,32 @@
+@mixin info-link {
+  display: flex;
+  align-items: center;
+
+  +.info-link {
+    margin-left: $lem * 2;
+  }
+
+  &__arrows {
+    @include colors(black-on-white);
+
+    padding: $lem;
+    margin-right: $lem;
+
+    .arrow-with-triangle {
+      @include arrow-with-triangle;
+
+      + .arrow-with-triangle {
+        margin-top: $lem / 2;
+      }
+    }
+  }
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white);
+  }
+
+  .flip {
+    @include text-style(metamn);
+    @include link-with-fliptext;
+  }
+}

@@ -3,18 +3,11 @@
   flex-direction: column;
   align-items: center;
 
-  &__text {
-    @include text-style(body-text);
+  &__bio {
+    @include info__bio;
+  }
 
-
-    @include scale(large-8);
-    max-width: 10em;
-    color: $white;
-    font-weight: 900;
-
-    .link {
-      @include link(white-on-black, white-on-black, white-on-black);
-      text-decoration: none;
-    }
+  &__links {
+    @include info__links;
   }
 }
