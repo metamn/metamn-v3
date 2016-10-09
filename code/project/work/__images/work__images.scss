@@ -5,5 +5,6 @@
 
   .img {
     @include img;
+    mix-blend-mode: exclusion;
   }
 }
