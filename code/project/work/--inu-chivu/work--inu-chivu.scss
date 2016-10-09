@@ -1,4 +1,6 @@
 @mixin work--inu-chivu {
+  padding: $lem * 2 0;
+
   .img {
     max-width: 50%;
 
@@ -11,7 +13,7 @@
     }
 
     &--7 {
-      background: $white;
+      background: $white !important;
     }
 
     &--8 {
