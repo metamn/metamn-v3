@@ -1,0 +1,7 @@
+@mixin smuff--laptop {
+  @include laptop {
+    .work__images {
+      justify-content: flex-end;
+    }
+  }
+}

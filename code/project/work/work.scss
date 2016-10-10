@@ -4,14 +4,14 @@
   }
 
   &--beat {
-    @include work--beat;
+    @include beat;
   }
 
   &--themes {
-    @include work--themes;
+    @include themes;
   }
 
   &--smuff {
-    @include work--smuff;
+    @include smuff;
   }
 }

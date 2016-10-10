@@ -1,0 +1,9 @@
+@mixin themes--laptop {
+  @include laptop {
+    .work__images {
+      .img {
+        max-width: calc(33% - #{$lem * 5});
+      }
+    }
+  }
+}

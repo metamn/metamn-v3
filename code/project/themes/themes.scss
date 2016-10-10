@@ -1,8 +1,8 @@
-@mixin work--themes {
+@mixin themes {
   .work__images {
     .img {
       @include img(fit);
-      
+
       max-width: calc(25% - #{$lem * 5});
       margin: $lem;
       padding: $lem;
@@ -16,4 +16,6 @@
       }
     }
   }
+
+  @include themes--laptop;
 }

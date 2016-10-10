@@ -1,4 +1,4 @@
-@mixin work--smuff {
+@mixin smuff {
   .work__images {
     justify-content: center;
 
@@ -19,4 +19,6 @@
       }
     }
   }
+
+  @include smuff--laptop;
 }
