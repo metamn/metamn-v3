@@ -1,0 +1,9 @@
+@mixin smuff--portrait {
+  @include portrait {
+    .work__images {
+      .img {
+        margin-left: $lem * 6;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@mixin themes--portrait {
+  @include portrait {
+    .work__images {
+      justify-content: space-around;
+
+      .img {
+        max-width: calc(50% - #{$lem * 4});
+        margin: $lem 0;
+      }
+    }
+  }
+}

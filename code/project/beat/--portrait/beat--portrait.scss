@@ -1,0 +1,15 @@
+@mixin beat--portrait {
+  @include portrait {
+    .work__images {
+      .img {
+        max-width: calc(90% - #{$lem * 4});
+        mix-blend-mode: multiply;
+
+        &:nth-of-type(n + 2) {
+          position: relative;
+          margin-top: -80vh;
+        }
+      }
+    }
+  }
+}
