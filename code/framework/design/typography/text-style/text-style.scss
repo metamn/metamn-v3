@@ -49,6 +49,19 @@
     color: $white;
     
     
+    @include laptop {
+      @include scale(large-7);
+      
+      
+    }
+    
+    @include tablet {
+      @include scale(large-6);
+      
+      color: $black;
+      
+    }
+    
   }
   
 }
@@ -82,6 +95,19 @@
   line-height: 1;
   color: $white;
   
+  
+  @include laptop {
+    @include scale(large-7);
+    
+    
+  }
+  
+  @include tablet {
+    @include scale(large-6);
+    
+    color: $black;
+    
+  }
   
 }
 

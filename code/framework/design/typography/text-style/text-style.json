@@ -67,6 +67,32 @@
           "name": "color",
           "value": "$white"
         }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "laptop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-7"
+            }
+          ]
+        },
+        {
+          "breakpoint": "tablet",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-6"
+            }
+          ],
+          "properties": [
+            {
+              "name": "color",
+              "value": "$black"
+            }
+          ]
+        }
       ]
     }
   ]
