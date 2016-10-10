@@ -7,18 +7,7 @@
   }
 
   &__arrows {
-    @include colors(black-on-white);
-
-    padding: $lem;
-    margin-right: $lem;
-
-    .arrow-with-triangle {
-      @include arrow-with-triangle;
-
-      + .arrow-with-triangle {
-        margin-top: $lem / 2;
-      }
-    }
+    @include info-link__arrows;
   }
 
   .link {
