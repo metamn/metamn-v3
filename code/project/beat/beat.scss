@@ -11,4 +11,6 @@
       //box-shadow: $lem $lem $black;
     }
   }
+
+  @include beat--tablet;
 }

@@ -1,0 +1,10 @@
+@mixin beat--tablet {
+  @include tablet {
+    .work__images {
+      .img {
+        max-width: calc(50% - #{$lem * 4});
+        margin: $lem;
+      }
+    }
+  }
+}
