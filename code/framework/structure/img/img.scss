@@ -16,6 +16,10 @@
     @include img--stretched;
   }
 
+  @if ($stretch == fit) {
+    @include img--fit;
+  }
+
   @if ($placeholder-color != false) {
     @include img--with-placeholder($placeholder-color);
   }

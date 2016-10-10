@@ -3,6 +3,7 @@
     justify-content: center;
 
     .img {
+      @include img(fit);
       max-width: calc(40% - #{$lem * 4});
       margin: $lem * 2;
 

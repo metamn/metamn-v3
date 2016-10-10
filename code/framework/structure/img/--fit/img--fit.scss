@@ -1,0 +1,10 @@
+// Fit image
+//
+// Used mostly inside a flexbox, the image is displayed as is, ie fit to it's container
+//
+// Styleguide fit-image
+
+@mixin img--fit {
+  width: 100%;
+  height: 100%;
+}
