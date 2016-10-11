@@ -3,6 +3,19 @@
     .work__images {
       .img {
         margin-left: $lem * 6;
+
+        &--4 {
+          position: relative;
+          margin-top: -10em;
+        }
+
+        &--5 {
+          margin-top: -20em;
+        }
+
+        &--6 {
+          margin-top: -25em;
+        }
       }
     }
   }
