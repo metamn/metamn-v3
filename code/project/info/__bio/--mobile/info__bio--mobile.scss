@@ -1,0 +1,12 @@
+@mixin info__bio--mobile {
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200vh;
+
+    p + p {
+      margin-top: $lem;
+    }
+  }
+}

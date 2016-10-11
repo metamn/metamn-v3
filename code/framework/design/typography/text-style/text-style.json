@@ -92,6 +92,25 @@
               "value": "$black"
             }
           ]
+        },
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-2"
+            }
+          ],
+          "properties": [
+            {
+              "name": "color",
+              "value": "$black"
+            },
+            {
+              "name": "line-height",
+              "value": "1.48"
+            }
+          ]
         }
       ]
     }

@@ -62,6 +62,14 @@
       
     }
     
+    @include mobile {
+      @include scale(large-2);
+      
+      color: $black;
+      line-height: 1.48;
+      
+    }
+    
   }
   
 }
@@ -106,6 +114,14 @@
     @include scale(large-6);
     
     color: $black;
+    
+  }
+  
+  @include mobile {
+    @include scale(large-2);
+    
+    color: $black;
+    line-height: 1.48;
     
   }
   

@@ -1,0 +1,9 @@
+@mixin info__bio--landscape {
+  p {
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      font-size: 70%;
+      color: $black;
+    }
+  }
+}

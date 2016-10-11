@@ -1,0 +1,19 @@
+@mixin smuff--mobile {
+  @include mobile {
+    .work__images {
+      margin-top: $lem * 2;
+
+      .img {
+        margin: 0;
+        margin-left: $lem;
+
+        border: 1px solid;
+
+        &--5,
+        &--6 {
+          margin-top: 0em;
+        }
+      }
+    }
+  }
+}

@@ -13,4 +13,7 @@
     text-decoration: none;
     line-height: 1.15;
   }
+
+  @include info__bio--landscape;
+  @include info__bio--mobile;
 }

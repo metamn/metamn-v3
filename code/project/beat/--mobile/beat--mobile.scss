@@ -1,0 +1,14 @@
+@mixin beat--mobile {
+  @include mobile {
+    .work__images {
+      .img {
+        max-width: 90%;
+        margin: 0;
+
+        &:nth-of-type(n + 2) {
+          margin-top: -115vw;
+        }
+      }
+    }
+  }
+}
