@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "Large",
+      "name": "Large-1",
       "description": "Large text for the bio",
       "based_on": "Nimbus Sans Black",
       "mixins": [
@@ -83,7 +83,7 @@
           "mixins": [
             {
               "name": "scale",
-              "value": "large-6"
+              "value": "large-5"
             }
           ],
           "properties": [
@@ -106,6 +106,70 @@
               "name": "color",
               "value": "$black"
             },
+            {
+              "name": "line-height",
+              "value": "1.48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Large-2",
+      "description": "Smaller text for the bio",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "scale",
+          "value": "large-6"
+        },
+        {
+          "name": "word-wrap",
+          "value": ""
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1"
+        },
+        {
+          "name": "color",
+          "value": "$black"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "laptop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-5"
+            }
+          ]
+        },
+        {
+          "breakpoint": "tablet",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-5"
+            }
+          ]
+        },
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-2"
+            }
+          ],
+          "properties": [
             {
               "name": "line-height",
               "value": "1.48"

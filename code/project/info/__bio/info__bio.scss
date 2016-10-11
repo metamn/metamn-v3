@@ -1,19 +1,27 @@
 @mixin info__bio {
-  @include text-style(large);
-
   padding: 0 $lem;
   max-width: 80%; // FIX link overflow
 
-  p + p {
-    margin-top: $lem / 4;
+  p {
+    &:nth-of-type(1) {
+      @include text-style(large-1);
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      @include text-style(large-2);
+    }
+
+    + p {
+      margin-top: $lem / 4;
+    }
   }
 
   .link {
     @include link(white-on-black, white-on-black, white-on-black);
     text-decoration: none;
-    line-height: 1.15;
+    line-height: 1.15; // Looks ok when displayed in two lines
   }
 
-  @include info__bio--landscape;
   @include info__bio--mobile;
 }
