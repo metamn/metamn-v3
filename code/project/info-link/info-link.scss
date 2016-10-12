@@ -8,6 +8,7 @@
 
   &__arrows {
     @include info-link__arrows;
+    display: none;
   }
 
   .link {

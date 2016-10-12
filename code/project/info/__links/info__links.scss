@@ -1,5 +1,7 @@
 @mixin info__links {
   display: flex;
+  width: 40%;
+  justify-content: flex-end;
   margin: $lem 0;
 
   .info-link {

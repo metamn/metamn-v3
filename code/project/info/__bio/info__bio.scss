@@ -1,27 +1,39 @@
 @mixin info__bio {
-  padding: 0 $lem;
-  max-width: 80%; // FIX link overflow
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 
   p {
-    &:nth-of-type(1) {
+    &.hello {
+      @include colors(white-on-black);
+      @include scale(large-1);
+
+      padding: $lem / 2;
+      width: $lem * 6;
+      height: $lem * 6;
+
+      position: relative;
+      z-index: 1;
+    }
+
+    &.statement {
       @include text-style(large-1);
+      margin-top: $lem;
     }
 
-    &:nth-of-type(2),
-    &:nth-of-type(3) {
-      @include text-style(large-2);
-    }
+    &.contact {
+      @include colors(black-on-white);
+      display: table;
+      padding: $lem / 4;
+      margin: $lem * 2 0;
 
-    + p {
-      margin-top: $lem / 4;
+      .link {
+        text-decoration: none;
+      }
     }
   }
 
-  .link {
-    @include link(white-on-black, white-on-black, white-on-black);
-    text-decoration: none;
-    line-height: 1.15; // Looks ok when displayed in two lines
-  }
+
 
   @include info__bio--mobile;
 }

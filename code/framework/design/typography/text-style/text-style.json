@@ -43,85 +43,11 @@
     {
       "name": "Large-1",
       "description": "Large text for the bio",
-      "based_on": "Nimbus Sans Black",
+      "based_on": "Nimbus Sans Bold",
       "mixins": [
         {
           "name": "font",
-          "value": "nimbus-sans-black"
-        },
-        {
-          "name": "scale",
-          "value": "large-8"
-        },
-        {
-          "name": "word-wrap",
-          "value": ""
-        }
-      ],
-      "properties": [
-        {
-          "name": "line-height",
-          "value": "1"
-        },
-        {
-          "name": "color",
-          "value": "$white"
-        }
-      ],
-      "responsive": [
-        {
-          "breakpoint": "laptop",
-          "mixins": [
-            {
-              "name": "scale",
-              "value": "large-7"
-            }
-          ]
-        },
-        {
-          "breakpoint": "tablet",
-          "mixins": [
-            {
-              "name": "scale",
-              "value": "large-5"
-            }
-          ],
-          "properties": [
-            {
-              "name": "color",
-              "value": "$black"
-            }
-          ]
-        },
-        {
-          "breakpoint": "mobile",
-          "mixins": [
-            {
-              "name": "scale",
-              "value": "large-2"
-            }
-          ],
-          "properties": [
-            {
-              "name": "color",
-              "value": "$black"
-            },
-            {
-              "name": "line-height",
-              "value": "1.48"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Large-2",
-      "description": "Smaller text for the bio",
-      "based_on": "Nimbus Sans Black",
-      "mixins": [
-        {
-          "name": "font",
-          "value": "nimbus-sans-black"
+          "value": "nimbus-sans-bold"
         },
         {
           "name": "scale",
@@ -136,10 +62,6 @@
         {
           "name": "line-height",
           "value": "1"
-        },
-        {
-          "name": "color",
-          "value": "$black"
         }
       ],
       "responsive": [

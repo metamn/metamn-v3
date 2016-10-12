@@ -41,46 +41,11 @@
   // Large-1
   // - Large text for the bio
   @if ($variant == 'large-1') {
-    @include font(nimbus-sans-black);
-    @include scale(large-8);
-    @include word-wrap;
-    
-    line-height: 1;
-    color: $white;
-    
-    
-    @include laptop {
-      @include scale(large-7);
-      
-      
-    }
-    
-    @include tablet {
-      @include scale(large-5);
-      
-      color: $black;
-      
-    }
-    
-    @include mobile {
-      @include scale(large-2);
-      
-      color: $black;
-      line-height: 1.48;
-      
-    }
-    
-  }
-  
-  // Large-2
-  // - Smaller text for the bio
-  @if ($variant == 'large-2') {
-    @include font(nimbus-sans-black);
+    @include font(nimbus-sans-bold);
     @include scale(large-6);
     @include word-wrap;
     
     line-height: 1;
-    color: $black;
     
     
     @include laptop {
@@ -128,44 +93,11 @@
 }
 
 .text-style--large-1 {
-  @include font(nimbus-sans-black);
-  @include scale(large-8);
-  @include word-wrap;
-  
-  line-height: 1;
-  color: $white;
-  
-  
-  @include laptop {
-    @include scale(large-7);
-    
-    
-  }
-  
-  @include tablet {
-    @include scale(large-5);
-    
-    color: $black;
-    
-  }
-  
-  @include mobile {
-    @include scale(large-2);
-    
-    color: $black;
-    line-height: 1.48;
-    
-  }
-  
-}
-
-.text-style--large-2 {
-  @include font(nimbus-sans-black);
+  @include font(nimbus-sans-bold);
   @include scale(large-6);
   @include word-wrap;
   
   line-height: 1;
-  color: $black;
   
   
   @include laptop {

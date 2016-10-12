@@ -75,6 +75,12 @@
       "url": "http://metamn.io/gust",
       "type": "external",
       "klass": "flip gust"
+    },
+    {
+      "title": "v1",
+      "url": "http://metamn.io/v1",
+      "type": "external",
+      "klass": "flip v1"
     }
   ]
 }
