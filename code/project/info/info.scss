@@ -1,4 +1,7 @@
 @mixin info {
+  width: 80%;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,4 +13,6 @@
   &__links {
     @include info__links;
   }
+
+  @include info--mobile;
 }

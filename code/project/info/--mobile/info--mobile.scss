@@ -1,0 +1,26 @@
+@mixin info--mobile {
+  @include mobile {
+    width: 100%;
+
+    .info__bio {
+      p {
+        &.hello {
+          @include colors(black-on-white);
+          background: transparent;
+        }
+
+        &.statement {
+          margin: 0;
+        }
+
+        &.contact {
+          background: transparent;
+          @include scale(large-1);
+          padding: 0;
+          margin: $lem * 2 $lem;
+          width: 90%;
+        }
+      }
+    }
+  }
+}
