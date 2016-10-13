@@ -1,8 +1,5 @@
 @mixin info-link__arrows {
-  @include colors(black-on-white);
-
   padding: $lem;
-  margin-right: $lem;
 
   .arrow-with-triangle {
     @include arrow-with-triangle;

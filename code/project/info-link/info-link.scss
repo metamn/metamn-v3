@@ -1,5 +1,7 @@
 @mixin info-link {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   +.info-link {
@@ -8,11 +10,14 @@
 
   &__arrows {
     @include info-link__arrows;
-    display: none;
+  }
+
+  &__description {
+    @include info-link__description;
   }
 
   .link {
-    @include link(black-on-white, black-on-white, black-on-white);
+    @include link(white-on-black, white-on-black, white-on-black);
   }
 
   .flip {

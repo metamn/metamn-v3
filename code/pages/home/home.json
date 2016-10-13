@@ -59,28 +59,32 @@
   ],
   "links": [
     {
-      "title": "Pulse",
-      "url": "http://metamn.io/pulse",
-      "type": "external",
-      "klass": "flip pulse"
-    },
-    {
       "title": "Beat",
       "url": "http://metamn.io/beat",
       "type": "external",
-      "klass": "flip beat"
+      "klass": "flip beat",
+      "description": "Articles"
+    },
+    {
+      "title": "Pulse",
+      "url": "http://metamn.io/pulse",
+      "type": "external",
+      "klass": "flip pulse",
+      "description": "Links"
     },
     {
       "title": "Gust",
       "url": "http://metamn.io/gust",
       "type": "external",
-      "klass": "flip gust"
+      "klass": "flip gust",
+      "description": "Meta"
     },
     {
       "title": "v1",
       "url": "http://metamn.io/v1",
       "type": "external",
-      "klass": "flip v1"
+      "klass": "flip v1",
+      "description": "Classic"
     }
   ]
 }
