@@ -1,15 +1,19 @@
 @mixin info__links {
-  display: flex;
+  width: 100%;
+  display: none;
   justify-content: flex-end;
-
-  width: 50%;
-  @include portrait {
-    width: 100%;
-  }
-
   margin: $lem 0;
 
-  .info-link {
-    @include info-link;
+  .link {
+    @include link(white-on-black, white-on-black, white-on-black);
+
+    + .link {
+      margin-left: $lem / 2;
+    }
+  }
+
+  .flip {
+    @include text-style(metamn);
+    @include link-with-fliptext;
   }
 }

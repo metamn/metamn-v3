@@ -2,22 +2,23 @@
   @include mobile {
     width: 100%;
 
+    .info__links {
+      display: flex;
+      justify-content: center;
+      margin: $lem * 4 0 0;
+    }
+
     .info__bio {
       p {
-        &.hello {
-          margin: $lem $lem $lem * 2;
-        }
-
+        &.hello,
         &.statement {
-          margin: 0;
+          display: none;
         }
 
         &.contact {
+          margin: 0;
           background: transparent;
-          @include scale(large-1);
-          padding: 0;
-          margin: $lem * 2 $lem;
-          width: 90%;
+          color: transparent;
         }
       }
     }
