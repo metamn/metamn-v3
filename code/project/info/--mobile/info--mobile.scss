@@ -5,8 +5,7 @@
     .info__bio {
       p {
         &.hello {
-          @include colors(black-on-white);
-          background: transparent;
+          margin: $lem $lem $lem * 2;
         }
 
         &.statement {

@@ -5,6 +5,9 @@
     .img {
       mix-blend-mode: difference;
 
+      border: 1px solid;
+      box-shadow: $lem $lem $black;
+
       margin: $lem * 2;
       transform: perspective( $lem * 15) rotateY(15deg) rotateZ(-5deg);
 

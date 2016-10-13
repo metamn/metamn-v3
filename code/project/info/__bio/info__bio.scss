@@ -5,7 +5,10 @@
 
   p {
     &.hello {
-      @include colors(white-on-black);
+      @include colors(black-on-white);
+      box-shadow: $lem $lem $black;
+      border: 1px solid;
+
       @include scale(large-1);
 
       padding: $lem / 2;

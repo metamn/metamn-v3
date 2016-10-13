@@ -2,6 +2,10 @@
   display: flex;
   justify-content: flex-end;
 
+  @include landscape {
+    flex-direction: column;
+  }
+
   width: 50%;
   @include portrait {
     width: 100%;
