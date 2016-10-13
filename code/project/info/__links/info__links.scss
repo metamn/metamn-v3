@@ -1,6 +1,6 @@
 @mixin info__links {
   width: 100%;
-  display: none;
+  display: flex;
   justify-content: flex-end;
   margin: $lem 0;
 
