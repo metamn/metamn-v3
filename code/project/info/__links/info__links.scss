@@ -1,5 +1,10 @@
 @mixin info__links {
   width: 50%;
+  @include mobile {
+    width: 100%;
+    justify-content: center;
+  }
+
   display: flex;
   justify-content: flex-end;
   margin: $lem 0;

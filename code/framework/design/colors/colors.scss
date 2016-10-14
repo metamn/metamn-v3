@@ -13,13 +13,7 @@ $white: #fff;
 $black: #000;
 
 // Secondary color
-$gray: mix($white, $black);
-
-// Secondary color
-$lightgray: mix($white, $black, 75%);
-
-// Secondary color
-$darkgray: mix($white, $black, 25%);
+$blue: blue;
 
 
 // Color combinations. Colors are not used standalone but in pairs
@@ -39,22 +33,8 @@ $darkgray: mix($white, $black, 25%);
     
   }
 
-  @if ($name == 'gray-on-white') {
-    color: $gray;
-    background-color: $white;
-    
-    
-  }
-
-  @if ($name == 'lightgray-on-white') {
-    color: $lightgray;
-    background-color: $white;
-    
-    
-  }
-
-  @if ($name == 'darkgray-on-white') {
-    color: $darkgray;
+  @if ($name == 'blue-on-white') {
+    color: $blue;
     background-color: $white;
     
     
@@ -72,16 +52,8 @@ $darkgray: mix($white, $black, 25%);
   background: #000;
 };
 
-.gray {
-  background: mix($white, $black);
-};
-
-.lightgray {
-  background: mix($white, $black, 75%);
-};
-
-.darkgray {
-  background: mix($white, $black, 25%);
+.blue {
+  background: blue;
 };
 
 
@@ -101,22 +73,8 @@ $darkgray: mix($white, $black, 25%);
   
 }
 
-.gray-on-white {
-  color: $gray;
-  background-color: $white;
-  
-  
-}
-
-.lightgray-on-white {
-  color: $lightgray;
-  background-color: $white;
-  
-  
-}
-
-.darkgray-on-white {
-  color: $darkgray;
+.blue-on-white {
+  color: $blue;
   background-color: $white;
   
   

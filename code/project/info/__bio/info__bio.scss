@@ -11,6 +11,7 @@
 
       @include scale(large-1);
 
+      margin: $lem;
       padding: $lem / 2;
       width: $lem * 6;
       height: $lem * 6;
@@ -19,18 +20,14 @@
       z-index: 1;
     }
 
-    &.statement {
-      @include text-style(large-1);
-      margin-top: $lem;
-    }
 
     &.contact {
-      @include colors(black-on-white);
       display: table;
       padding: $lem / 4;
-      margin: $lem * 2 0;
+
 
       .link {
+        @include link(blue-on-white, blue-on-white, blue-on-white);
         text-decoration: none;
       }
     }
