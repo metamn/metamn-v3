@@ -2,7 +2,7 @@
   @include laptop {
     .work__images {
       .img {
-        max-width: calc(33% - #{$lem * 5});
+        width: calc(33% - #{$lem * 5});
       }
     }
   }

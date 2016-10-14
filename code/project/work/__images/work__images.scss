@@ -4,7 +4,7 @@
   justify-content: space-between;
 
   .img {
-    @include img;
+    @include img(stretched);
     mix-blend-mode: exclusion;
   }
 }

@@ -3,6 +3,9 @@
     justify-content: center;
 
     .img {
+      @include img(fluid);
+      width: auto;
+      
       mix-blend-mode: difference;
 
       border: 1px solid;

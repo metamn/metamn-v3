@@ -2,7 +2,7 @@
   @include mobile {
     .work__images {
       .img {
-        max-width: calc(50% - #{$lem * 2});
+        width: calc(50% - #{$lem * 2});
         margin: $lem / 2;
         padding: $lem / 2;
 

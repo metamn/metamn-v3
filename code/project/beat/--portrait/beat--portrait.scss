@@ -2,9 +2,9 @@
   @include portrait {
     .work__images {
       margin-top: $lem * 2;
-      
+
       .img {
-        max-width: calc(90% - #{$lem * 4});
+        width: calc(90% - #{$lem * 4});
         mix-blend-mode: multiply;
         border: 1px solid;
 
