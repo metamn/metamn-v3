@@ -1,5 +1,7 @@
 @mixin themes {
   .work__images {
+    -webkit-perspective: 10000px; // Safari hack
+    
     .img {
       @include img(fit);
 
