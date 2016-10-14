@@ -3,6 +3,8 @@
     justify-content: center;
 
     .img {
+      mix-blend-mode: normal;
+      
       @include img(fit);
       width: calc(40% - #{$lem * 4});
       margin: $lem * 2;
