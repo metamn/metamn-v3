@@ -2,14 +2,12 @@
   @include mobile {
     width: 100%;
 
-    .info__links {
-      justify-content: center;
-      margin: $lem * 4 0 0;
-    }
-
     .info__bio {
       p {
-        &.hello,
+        &.hello {
+          margin: $lem;
+        }
+
         &.statement {
           display: none;
         }
@@ -18,8 +16,17 @@
           margin: 0;
           background: transparent;
           color: transparent;
+
+          .link {
+            background: $white;
+          }
         }
       }
+    }
+
+    .info__links {
+      width: 100%;
+      justify-content: center;
     }
   }
 }

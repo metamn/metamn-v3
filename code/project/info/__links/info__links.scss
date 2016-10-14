@@ -1,11 +1,12 @@
 @mixin info__links {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   margin: $lem 0;
 
   .link {
-    @include link(white-on-black, white-on-black, white-on-black);
+    @include link(black-on-white, black-on-white, black-on-white);
+    @include scale(large-1);
 
     + .link {
       margin-left: $lem / 2;
@@ -13,7 +14,12 @@
   }
 
   .flip {
-    @include text-style(metamn);
     @include link-with-fliptext;
+
+    &__span {
+      &::before {
+        @include colors(white-on-black);
+      }
+    }
   }
 }
