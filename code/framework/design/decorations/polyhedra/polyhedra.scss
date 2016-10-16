@@ -1,0 +1,14 @@
+// Polyhedra
+//
+// Create cubes, tetrahedrons, etc.
+//
+// Styleguide polyhedra
+@mixin polyhedra {
+  height: 350px;
+  overflow: hidden;
+  text-align: center;
+
+  .polyhedron {
+    @include polyhedron;
+  }
+}
