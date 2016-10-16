@@ -40,6 +40,13 @@ $blue: blue;
     
   }
 
+  @if ($name == 'black-on-transparent') {
+    color: $black;
+    background-color: transparent;
+    
+    
+  }
+
 }
 
 // Color classes
@@ -76,6 +83,13 @@ $blue: blue;
 .blue-on-white {
   color: $blue;
   background-color: $white;
+  
+  
+}
+
+.black-on-transparent {
+  color: $black;
+  background-color: transparent;
   
   
 }

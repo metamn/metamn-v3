@@ -90,23 +90,35 @@
   "icons": [
     {
       "name": "tumblr",
-      "title": "Tumblr",
-      "url": "http://metamn.tumblr.com/"
+      "link": {
+        "title": "Tumblr",
+        "url": "http://metamn.tumblr.com/",
+        "type": "external"
+      }
     },
     {
       "name": "github",
-      "title": "Github",
-      "url": "http://github.com/metamn"
+      "link": {
+        "title": "Github",
+        "url": "http://github.com/metamn",
+        "type": "external"
+      }
     },
     {
       "name": "twitter",
-      "title": "Twitter",
-      "url": "http://twitter.com/metamn"
+      "link": {
+        "title": "Twitter",
+        "url": "http://twitter.com/metamn",
+        "type": "external"
+      }
     },
     {
       "name": "medium",
-      "title": "Medium",
-      "url": "http://medium.com/metamn"
+      "link": {
+        "title": "Medium",
+        "url": "http://medium.com/metamn",
+        "type": "external"
+      }
     }
   ]
 }

@@ -10,6 +10,10 @@
   }
 
   .cube {
-    @include cube(white-on-black, $lem * 14);
+    @include cube(black-on-transparent, $lem * 14, $lem * 4);
+
+    position: relative;
+    margin-left: $lem * 10;
+    margin-top: -$lem * 10;
   }
 }

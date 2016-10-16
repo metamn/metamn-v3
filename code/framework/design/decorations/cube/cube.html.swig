@@ -16,7 +16,7 @@
             <!-- Modify here -->
             <!-- Replace dummy data like <a href="{{ icon.url }}"> with your real data <a href="{{ icon.url }}<your-data>"> -->
             {% set icon = icons[index] %}
-            {% include '../../../structure/icomoon/icomoon.html.swig' %}
+            {% include '../icon/icon.html.swig' %}
           {% endif %}
         </div>
       {% endfor %}

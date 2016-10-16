@@ -54,8 +54,20 @@
           "name": "background-color",
           "value": "$white"
         }
-      ],
-      "contrast": "3.9, bold: 14pt (large 1), normal: 18pt (large 3)"
+      ]
+    },
+    {
+      "name": "black-on-transparent",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$black"
+        },
+        {
+          "name": "background-color",
+          "value": "transparent"
+        }
+      ]
     }
   ]
 }

@@ -7,6 +7,7 @@
   "scripts": "assets/scripts/",
   "videos": "assets/videos/",
   "styles": "assets/styles/",
+  "icons": "../../design/decorations/icon/@assets/symbol-defs.svg",
   "javascripts": {
     "header": [
       {

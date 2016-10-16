@@ -1,8 +1,8 @@
 // - http://paulrhayes.com/experiments/cube-3d/
-@mixin cube($color-scheme, $size: 200px) {
+@mixin cube($color-scheme, $size: 200px, $icon_size: 32px, $icon_color: $black) {
   display: flex;
   justify-content: center;
-  
+
   &__wrap {
   	@include cube__wrap($size);
 
@@ -16,8 +16,8 @@
         justify-content: center;
         align-items: center;
 
-        .icomoon {
-          @include icomoon($lem, $color-scheme);
+        .icon {
+          @include icon($icon_size, $icon_size, $icon_color);
         }
       }
     }
