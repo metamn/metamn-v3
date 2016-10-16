@@ -3,12 +3,9 @@
   margin-left: $lem * 30;
   margin-top: -$lem * 15;
 
-  @include portrait {
-    margin-left: $lem * 15;
-    margin-top: -$lem * 30;
+  .cube {
+    @include cube(black-on-transparent, $lem * 6, $lem * 2);
   }
 
-  .cube {
-    @include cube(black-on-transparent, $lem * 8, $lem * 3);
-  }
+  @include icons--portrait;
 }

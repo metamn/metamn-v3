@@ -1,0 +1,11 @@
+@mixin icons--portrait {
+  @include portrait {
+    margin-left: 0;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+
+    .cube {
+      @include cube(black-on-transparent, $lem * 4, $lem * 1.5);
+    }
+  }
+}
