@@ -1,6 +1,10 @@
 @mixin info {
   width: 80%;
-  margin: 0 auto;
+  margin: 100vh auto 0;
+
+  @include portrait {
+    margin-top: 50vh;
+  }
 
   display: flex;
   flex-direction: column;

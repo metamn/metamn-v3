@@ -1,19 +1,14 @@
 @mixin icons {
-  display: flex;
-  justify-content: center;
-
-  width: 80%;
-  margin: 100vh auto 0;
+  position: relative;
+  margin-left: $lem * 30;
+  margin-top: -$lem * 15;
 
   @include portrait {
-    margin-top: 50vh;
+    margin-left: $lem * 15;
+    margin-top: -$lem * 30;
   }
 
   .cube {
-    @include cube(black-on-transparent, $lem * 14, $lem * 4);
-
-    position: relative;
-    margin-left: $lem * 10;
-    margin-top: -$lem * 10;
+    @include cube(black-on-transparent, $lem * 8, $lem * 3);
   }
 }
